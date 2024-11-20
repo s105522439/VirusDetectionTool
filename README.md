@@ -14,3 +14,4 @@ CREATE TABLE [dbo].[VirusSignatures](
 ) ON [PRIMARY]
 GO
 
+![image](https://github.com/user-attachments/assets/e4131c82-d524-43ba-8d0a-88b62312e7e5)
