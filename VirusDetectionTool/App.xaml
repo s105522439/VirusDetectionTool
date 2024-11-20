@@ -1,0 +1,18 @@
+﻿<Application x:Class="VirusDetectionTool.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:VirusDetectionTool"
+             StartupUri="MVVM/Views/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Themes/SelectFolderBox.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Themes/QuarantineFolderBox.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Themes/SearchButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Themes/QuarantineButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Themes/ClearButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Themes/ConsoleBox.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
